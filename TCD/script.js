@@ -26,7 +26,7 @@ console.log(schoolArr);
 
 tableElem = document.createElement("table");
 
-for (let i = 0; i <= 10; i++) { // may want to change these values later if I end up getting more than 25 elements to display 
+for (let i = 0; i <= 25; i++) { // may want to change these values later if I end up getting more than 25 elements to display 
   // first element will always be a label.
   let a
   a = document.createElement("tr");
