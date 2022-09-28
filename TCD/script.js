@@ -25,15 +25,16 @@ console.log(schoolArr);
 
 
 tableElem = document.createElement("table");
-listObj.insertAdjacentElement("beforeend", tableElem);
-tableElems = [];
-for (let i = 0; i <= 25; i++) { // may want to change these values later if I end up getting more than 25 elements to display 
+
+for (let i = 0; i <= 10; i++) { // may want to change these values later if I end up getting more than 25 elements to display 
   // first element will always be a label.
   let a
   a = document.createElement("tr");
   a.append(document.createElement("th"));
-  for (let j = 0; j <= 2; i++) {
+  for (let j = 0; j <= 2; j++) {
     a.append(document.createElement("td"));
   }
-  tableElems.push(a);
+  tableElem.append(a);
 }
+
+listObj.insertAdjacentElement("beforeend", tableElem);
