@@ -1,9 +1,25 @@
 table, th, td{
-  border: 1px solid;
-  border-collapse: collapse;
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+  border: 0px;
 }
 
-th, td { height:20px; }
+th, td { height: 20px; border-bottom: 1px solid #ddd; }
 th { width: 120px; }
 td { width: 50px; }
+
+table { 
+  border: 1px solid #000;
+  /*border-collapse: collapse;*/
+  border-color: #000;
+}
+
+.odd {
+  background-color: #eee;
+}
+
+.even {
+  background-color: #ddd;
+}
